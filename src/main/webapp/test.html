@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：CSS_visibility
+  File name(文件名): test
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/1/31
+  Time(创建时间)： 19:08
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="t.css">
+</head>
+<body>
+<h1 class="visible">visible</h1>
+<h1 class="hidden">hidden</h1>
+<table border="1">
+    <tr>
+        <th>值</th>
+        <th>描述</th>
+    </tr>
+    <tr>
+        <td>visible</td>
+        <td class="collapse">默认值，表示元素是可见的</td>
+    </tr>
+    <tr>
+        <td>hidden</td>
+        <td>隐藏元素</td>
+    </tr>
+    <tr class="collapse">
+        <td>collapse</td>
+        <td>主要用来隐藏表格的行和列，隐藏的行或列所占的空间可以被其他表格内容使用；如果在其他元素上使用，其效果等同于“hidden”</td>
+    </tr>
+    <tr>
+        <td>inherit</td>
+        <td>从父元素继承 visibility 属性的值</td>
+    </tr>
+</table>
+<p><strong>提示：</strong>visibility 属性虽然会隐藏元素，但会保留元素在页面中所占的空间。如果您希望元素隐藏的同时又不占用页面空间的话，请使用 display 属性。</p>
+
+</body>
+</html>

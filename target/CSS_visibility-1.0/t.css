@@ -1,0 +1,80 @@
+/*
+  Project name(项目名称)：CSS_visibility 
+  File name(文件名): t
+  Author(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/1/31 
+  Time(创建时间)： 19:07
+  Version(版本): 1.0
+  Description(描述)：
+  CSS 中的 visibility 属性用来设置元素是否可见，您可以将该属性与 JavaScript 一起使用，来创建非常复杂的菜单或网页布局，
+  比如在网页中做一些测试题时您可以使用 visibility 属性将题目的答案或解析隐藏起来，需要时再将其展示出来。
+值	    描述
+visible	默认值，表示元素是可见的
+hidden	隐藏元素
+collapse	主要用来隐藏表格的行和列，隐藏的行或列所占的空间可以被其他表格内容使用；如果在其他元素上使用，其效果等同于“hidden”
+inherit	从父元素继承 visibility 属性的值
+ */
+
+
+.visible {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.collapse {
+    visibility: collapse;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+/*表格*/
+
+
+table {
+    width: 70%;
+    background: #ccc;
+    margin: 10px auto;
+    border-collapse: collapse; /*border-collapse:collapse合并内外边距(去除表格单元格默认的2个像素内外边距*/
+}
+
+th, td {
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+th {
+    background: #eee;
+    font-weight: normal;
+}
+
+tr {
+    background: #fff;
+}
+
+tr:hover {
+    background: aqua;
+}
+
+td:hover {
+    color: magenta;
+}
+
+td a {
+    color: #06f;
+    text-decoration: none;
+}
+
+td a:hover {
+    color: #06f;
+    text-decoration: underline;
+}

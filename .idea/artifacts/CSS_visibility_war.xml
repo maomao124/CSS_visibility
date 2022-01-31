@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CSS_visibility:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>false</exploded>
+        <module>CSS_visibility</module>
+        <packaging>war</packaging>
+        <unpackNestedArchives>false</unpackNestedArchives>
+      </options>
+    </properties>
+    <root id="archive" name="CSS_visibility-1.0.war">
+      <element id="artifact" artifact-name="CSS_visibility:war exploded" />
+    </root>
+  </artifact>
+</component>
